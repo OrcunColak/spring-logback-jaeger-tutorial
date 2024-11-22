@@ -1,0 +1,7 @@
+opentracing:
+  jaeger:
+    enabled: true
+    udp-sender:
+      host: localhost   # Jaeger agent host (default is localhost)
+      port: 6831        # Jaeger agent port (default is 6831)
+    service-name: my-service # Name of the service being traced
